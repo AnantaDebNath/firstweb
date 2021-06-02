@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <title></title>
+    <style type="text/css">
+    .color{
+      background-color:#8A8A96;
+    }
+    .color1{
+      background-color:#997B58;
+    }
+
+    .color2{
+    background-color:#F4E4DC;
+    }
+
+    .color3{
+    background-color:#FAEBD7;
+    }
+    .border{
+    border:outset #eec591;
+    }
+    tr:hover{
+      background-color:tomato;
+    }
+    input[type=text]{
+      width:100%;
+      padding:10px 20px;
+      border:3px solid salmon;
+      border-radius: 5px;
+      box-sizing:border-box;
+    }
+    #search{
+      background-image: url("images/search.png");
+      background-repeat: no-repeat;
+    }
+
+    </style>
+  </head>
+  <body>
+  
+    <div class="color3">
+     <h1 style="font-family: pattaya" class="border" align="center"> My Project <span>🔥</span></h1>
+    <p align="center"> <img src="images/image1.jpg" alt="website" height="300PX" width="600PX"></p>
+    </div>
+    <h4 align="center"> Adding Youtube Videos Link </h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/50VNCymT-Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uB2rhjulY4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="color2">
+    <h4> Creating Random table:</h4>
+    <table border="3" >
+      <caption> Students Information</caption>
+      <tr style="background-color:orange">
+        <th>ID</th>
+        <th>Name</th>
+        <th>GPA</th>
+        <th>Mobile</th>
+      </tr>
+      <tr>
+        <td>1001</td>
+        <td>Tamim</td>
+        <td>5</td>
+        <td>018555616</td>
+
+      </tr>
+      <tr>
+        <td>1002</td>
+        <td>Mushfiq</td>
+        <td>4.50</td>
+        <td>019555616</td>
+
+      </tr>
+      <tr>
+        <td>1003</td>
+        <td>Sakib</td>
+        <td>4.75</td>
+        <td>017555616</td>
+
+      </tr>
+      <tr>
+        <td>1004</td>
+        <td>Mahmudullah</td>
+        <td>4.50</td>
+        <td>016555616</td>
+
+      </tr>
+
+    </table>
+  </div>
+    <div class="color3">
+    <h4> Creating Form :</h4>
+    <form>
+      <datalist id="names">
+      <option value="Ananta Deb Nath">Ananta Deb Nath</option>
+      <option value="Akash">Akash</option>
+      <option value="Batas">Batas</option>
+      </datalist>
+      <p><input type="text" placeholder="Search" id="search"></p>
+      <p > Username: <input type="text" list="names" placeholder="letters and numbers" required pattern="[a-zA-Z0-9]+"></p>
+      <p> Password: <input type="password" placeholder="Enter Your Password" required></p>
+      <p> Email: <input type="email" placeholder="Enter Your Email " required></p>
+      <p > Religion: <input type="radio" name="religion">Hindu
+                    <input type="radio" name="religion">Islam
+      </p>
+      <p >
+        Gender:
+           <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+
+      </p>
+      <p>
+        Department:
+        <select>
+            <option selected>CSE</option>
+            <option>EEE</option>
+            <option>BBA</option>
+        </select>
+      </p>
+      <p>
+        Feedback: <br/>
+        <textarea>
+        </textarea>
+
+      </p>
+      <input style="background-color:#5793FF"type="submit" value="Submit">
+      <input style="background-color:#5793FF"type="reset" value="Clear">
+    </form>
+  </div>
+    <div class="color">
+    <p>
+      <video width="320" height="320" controls>
+        <source src="tumi.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="color3">
+    </p>
+    <h4 style="color:#5a4441" > Adding externel link</h4>
+    <a href="https://www.prothomalo.com/">Prothom alo</a>
+  </div>
+  </body>
+</html>
